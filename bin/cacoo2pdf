@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "cacoo2pdf"
+require "cacoo2pdf/command/Option"
+
+options = Cacoo2pdf::Command::Options.parse! ARGV
+
+puts options
+
+Cacoo2pdf::run(options[:name], options[:output], options[:cacoo])
