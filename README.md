@@ -25,12 +25,14 @@ cacoo2pdf -n pdf_name -d xxxxxxxxxxxxxxxx [-k xxxxxxxxxxxxxxxxxxxx] [-o output_d
 
 ### Options
 
+
 | option | require | description |
-|:------;|:-------:|:------------|
+|:------:|:-------:|------------|
 | -n, --name | true | output pdf filename |
 | -d, --diagram | true | cacoo diagram id |
 | -k, --api_key | false | cacoo api key. This can specify as environment value `CACOO_API_KEY` |
 | - o, --output | false | output directory path to generate pdf. |
+
 
 ## Development
 
